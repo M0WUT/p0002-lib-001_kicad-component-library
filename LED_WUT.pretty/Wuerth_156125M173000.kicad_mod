@@ -1,13 +1,13 @@
 (footprint "Wuerth_156125M173000"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "30fbaaba-f140-4ab3-a3ab-63a6e333b91e")
+		(uuid "96a0b376-438e-49d3-b0af-329d0ce8d7a4")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f507758-aa01-49b9-8e08-47f89064f66a")
+		(uuid "4b34d214-ddaf-4ea4-910c-6e659391a2f7")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "56210c38-964b-44c4-9521-da72e88f432f")
+		(uuid "e2add90f-446c-4589-a154-a550ef2532d4")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0ac1dc50-9b2e-4a78-aa0b-fb6f678f59be")
+		(uuid "f2b98ae7-ddf3-4d79-b5cc-aacf6759c38d")
 		(effects
 			(font
 				(size 1 1)
@@ -55,15 +55,16 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.25 -1)
+		(start -2.25 -1.25)
 		(end -2.25 1.25)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "0fce8237-e8f6-4d72-9c6c-254a0ca6435c")
+		(uuid "c1813cea-f95d-4624-b82a-ae63cbeea37b")
 	)
 	(fp_line
 		(start -2.25 1.25)
@@ -73,27 +74,17 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "04048e46-3615-40b9-ad9f-73a632243f10")
-	)
-	(fp_line
-		(start -2 -1.25)
-		(end -2.25 -1)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7c8dcd35-5ad2-4819-a591-19d792e1e033")
+		(uuid "8b02c524-f411-4289-96ac-4727b2459c52")
 	)
 	(fp_line
 		(start 2.25 -1.25)
-		(end -2 -1.25)
+		(end -2.25 -1.25)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "480db728-6023-451c-88d4-e004a5256d96")
+		(uuid "e2b3b129-00a5-4f4d-815e-de24d4890706")
 	)
 	(fp_line
 		(start 2.25 1.25)
@@ -103,7 +94,18 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b9c01fb2-23d4-4ef4-bf0b-2c5bb7ea5c17")
+		(uuid "9975a6df-583e-487b-91f7-cef7a4e7c447")
+	)
+	(fp_circle
+		(center -2.6 -1.6)
+		(end -2.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eea532f5-1683-4c32-ac5f-3faab98e4006")
 	)
 	(fp_rect
 		(start -2.5 -1.5)
@@ -114,7 +116,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "04f5776d-c27f-49d3-9f9b-805a10c249a6")
+		(uuid "00c019ee-01d8-43e0-bdbc-ac2ff64a51b6")
 	)
 	(fp_rect
 		(start -1.6 -0.6)
@@ -125,7 +127,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3bdeb927-ae81-4344-8285-e4708338d0c4")
+		(uuid "8ac48eb4-ce62-43ba-aba9-f4d3e6a57844")
 	)
 	(fp_rect
 		(start -1 -0.6)
@@ -136,13 +138,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "9c58a52d-4e21-4ef1-87f8-61e0bc51bb18")
+		(uuid "bcd3d3ee-5ce1-4c6b-a15a-1a1922ef9ffd")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8e3f082d-4971-4b47-b3dc-a224b265455c")
+		(uuid "c08782c7-706a-4336-af00-b05392ee7cbc")
 		(effects
 			(font
 				(size 1 1)
@@ -155,31 +157,31 @@
 		(size 1.75 1.75)
 		(drill 1.75)
 		(layers "*.Cu" "*.Mask")
-		(uuid "539bdb9c-0fe3-42f4-b7c0-7f8c9d259fe3")
+		(uuid "d9a1f69c-39cc-4a9c-b8ba-bac7107253ed")
 	)
 	(pad "1" smd rect
 		(at -1.55 -0.575)
 		(size 0.9 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "11ea2929-c5cc-4d5b-94cb-43d646f99018")
+		(uuid "d21d09b8-1326-4bac-9eb5-f944f7fbec87")
 	)
 	(pad "2" smd rect
 		(at -1.55 0.575)
 		(size 0.9 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "20e22296-1e94-450a-af77-a17708f32cea")
+		(uuid "e8cb0c20-b0fa-47e0-a657-7274d9b917b6")
 	)
 	(pad "3" smd rect
 		(at 1.55 0.575)
 		(size 0.9 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5f09556c-8d27-4ad2-94a2-1e0273f6aa55")
+		(uuid "9acea5df-3482-4ed3-bab9-808a2c7d9316")
 	)
 	(pad "4" smd rect
 		(at 1.55 -0.575)
 		(size 0.9 0.85)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f60a215d-7ff9-489a-b3c2-cc6e394c7141")
+		(uuid "34444a9e-6e52-4982-8433-4c430a0a4a02")
 	)
 	(embedded_fonts no)
 	(model "${WUT_LIBRARIES}/LED_WUT.3dshapes/Wuerth_156125M173000.stp"
