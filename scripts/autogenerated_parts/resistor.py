@@ -57,6 +57,7 @@ def add_resistor(
     height,
     tolerance,
     datasheet,
+    power,
 ) -> str:
     return f"""
   (symbol "{manufacturer} {mpn}" (extends "R")
@@ -84,7 +85,10 @@ def add_resistor(
     (property "Height" "{height}mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "{value} {tolerance} {package_description} Resistor" (at 0 0 0)
+    (property "Rated Power" "{power}W" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "{value} {tolerance} {package_description} {power}W Resistor" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -108,6 +112,7 @@ def add_resistors(library_dir: Path, worksheet_values: Generator):
         height,
         tolerance,
         datasheet,
+        power,
     ) in worksheet_values:
         if manufacturer == "Manufacturer":
             continue
@@ -124,6 +129,7 @@ def add_resistors(library_dir: Path, worksheet_values: Generator):
                 height,
                 tolerance,
                 datasheet,
+                power,
             )
         )
 

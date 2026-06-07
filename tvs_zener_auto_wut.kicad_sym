@@ -1125,7 +1125,7 @@
     )
   )
 
-  (symbol "None CDSOD323-T15S" (extends "TVS_Uni")
+  (symbol "Bourns CDSOD323-T15S" (extends "TVS_Uni")
     (property "Reference" "D" (at 2.54 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1138,7 +1138,7 @@
     (property "Datasheet" "https://www.mouser.co.uk/datasheet/2/54/cdsod323_txxsc-777083.pdf" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "None" (at 0 0 0)
+    (property "Manufacturer" "Bourns" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "CDSOD323-T15S" (at 0 0 0)

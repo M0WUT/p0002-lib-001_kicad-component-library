@@ -16849,7 +16849,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "CN"
 			(at 0 2.54 0)
@@ -32199,7 +32199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_WUT:PinHeader_1x03_P2.54mm_Vertical"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

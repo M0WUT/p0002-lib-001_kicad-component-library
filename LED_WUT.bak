@@ -3265,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_WUT:Wuerth_156125M173000"
 			(at 0 0 0)
 			(effects
 				(font
