@@ -88,8 +88,8 @@ def add_base_fuse():
     )
     (symbol "Fuse_1_1"
       (pin passive line
-        (at -3.81 0 0)
-        (length 1.27)
+        (at -5.08 0 0)
+        (length 2.54)
         (name "~"
           (effects
             (font
@@ -106,8 +106,8 @@ def add_base_fuse():
         )
       )
       (pin passive line
-        (at 3.81 0 180)
-        (length 1.27)
+        (at 5.08 0 180)
+        (length 2.54)
         (name "~"
           (effects
             (font

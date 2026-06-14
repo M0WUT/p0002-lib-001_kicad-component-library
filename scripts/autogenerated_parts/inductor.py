@@ -37,11 +37,11 @@ def add_base_inductor():
       )
     )
     (symbol "L_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
+      (pin passive line (at 0 5.08 270) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
+      (pin passive line (at 0 -5.08 90) (length 2.54)
         (name "2" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

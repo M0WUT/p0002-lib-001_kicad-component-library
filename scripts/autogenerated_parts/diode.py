@@ -53,11 +53,11 @@ def add_base_normal_diode():
       )
     )
     (symbol "D_1_1"
-      (pin passive line (at -3.81 0 0) (length 2.54)
+      (pin passive line (at -5.08 0 0) (length 3.81)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 3.81 0 180) (length 2.54)
+      (pin passive line (at 5.08 0 180) (length 3.81)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

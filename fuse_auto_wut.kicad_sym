@@ -82,8 +82,8 @@
     )
     (symbol "Fuse_1_1"
       (pin passive line
-        (at -3.81 0 0)
-        (length 1.27)
+        (at -5.08 0 0)
+        (length 2.54)
         (name "~"
           (effects
             (font
@@ -100,8 +100,8 @@
         )
       )
       (pin passive line
-        (at 3.81 0 180)
-        (length 1.27)
+        (at 5.08 0 180)
+        (length 2.54)
         (name "~"
           (effects
             (font
@@ -252,6 +252,33 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "350mA PPTC 0603 Fuse" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol "Littelfuse 0603L050SL" (extends "Fuse")
+    (property "Reference" "F" (at 0 2.54 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "500mA" (at 0 -2.54 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.littelfuse.com/assetdocs/resettable-ptcs-low-rho-smd-ptc-datasheet?assetguid=b786faf0-de16-4763-9d22-6b8080943caf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Littelfuse" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "0603L050SL" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Height" "0.75mm" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "500mA PPTC 0603 Fuse" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
