@@ -40007,8 +40007,8 @@
 		)
 		(symbol "TPS2553DBV_1_1"
 			(rectangle
-				(start -5.08 2.54)
-				(end 5.08 -15.24)
+				(start -7.62 2.54)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -40018,7 +40018,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -40054,7 +40054,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -40072,7 +40072,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "~{FAULT}"
 					(effects
@@ -40090,7 +40090,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -10.16 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -40108,7 +40108,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "OUT"
 					(effects

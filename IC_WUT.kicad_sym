@@ -22169,7 +22169,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -22187,7 +22187,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
